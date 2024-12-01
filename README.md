@@ -45,17 +45,6 @@ Forecast future changes in the microbiome using **ARIMAX models**, allowing you 
 ### 🧬 **Longitudinal Data Analysis**
 `dynamo_library` is specifically designed for longitudinal studies, where data is collected from the same subjects over multiple time points. It allows users to track the stability and variability of microbial species within each subject, helping to identify which species are stable and which are more susceptible to environmental changes.
 
-
-## Installation
-
-You can install the latest version of `dynamo_library` from GitHub:
-
-```bash
-git clone https://github.com/paula078/dynamo_library.git
-cd dynamo_library
-pip install -r requirements.txt
-```
-
 ## Citation
 If you use `dynamo_library` in your research, please cite the following publication:
 
