@@ -1,29 +1,22 @@
-# 🦠 Dynamo: A Library for Microbiome Exploration 🦠🔬
+# 🦠 Microbiome time series data reveal predictable patterns of change 🦠🔬
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/paula078/dynamo_library/ci-unittest.yml?branch=main)
-![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)
+
+This repository contains the source code used to generate figures for the manuscript *Microbiome time series data reveal predictable patterns of change*  DOI: 10.1128/spectrum.04109-23. To utilize the methods described in the manuscript for your own research, please clone or download dynamo library from: https://github.com/paula078/dynamo_library 
 
 ## Overview
 
-`dynamo_library` is an advanced Python library designed for researchers and data scientists who work with longitudinal microbiome data, especially in the context of human gut microbiome dynamics. The library provides a robust, flexible, and user-friendly framework to analyze time-series data, offering deep insights into the temporal patterns and behaviors of microbial communities. 
+The human gut microbiome is crucial in health and disease. Longitudinal studies are becoming increasingly important compared to traditional cross-sectional approaches, as precision medicine and individualized interventions are coming to the forefront. Investigating the temporal dynamics of the microbiome is essential for comprehending its function and impact on health. This knowledge has implications for targeted therapeutic strategies, such as personalized diets or probiotic therapy. 
 
-This repository contains the source code used to generate figures for our manuscript. To utilize the methods described in the manuscript, please clone or download this repository from:
-https://github.com/paula078/dynamo_library
+In this study, we focused on developing and implementing methods specifically designed for analyzing gut microbiome time series. Our statistical framework provides researchers with tools to examine the temporal behavior of the gut microbiome. Key features of our framework include statistical tests for time series properties, predictive modeling, classification of bacterial species based on stability and noise, and clustering analyses to identify groups of bacteria with similar temporal patterns. We analyzed dense amplicon sequencing time series from four generally healthy subjects. Using our developed statistical framework, we analyzed both the overall community dynamics and the behavior of individual bacterial species. We showed six longitudinal regimes within the gut microbiome and discussed their features. Additionally, we explored whether specific bacterial clusters undergo similar fluctuations, suggesting potential functional relationships and interactions within the microbiome. Our development of specialized methods for analyzing human gut microbiome time series significantly enhances the understanding of its dynamic nature and implications for human health. 
 
-The code is organized into classes for easier implementation. For detailed usage instructions, please refer to the documentation in the README.md file.
+The guidelines and tools provided by our framework support scientists in studying the complex dynamics of the gut microbiome, fostering further research and advancements in microbiome analysis. The gut microbiome is integral to human health, influencing various diseases. Longitudinal studies offer deeper insights into its temporal dynamics compared to cross-sectional approaches. 
 
-**Why use `dynamo_library`?**
+In this study, we developed a statistical framework for analyzing the time series of the human gut microbiome. This framework provides robust tools for examining microbial community dynamics over time. It includes statistical tests for time series properties, predictive modeling, classification of bacterial species based on stability and noise, and clustering analyses. Our approach significantly enhances the methodologies available to researchers, promoting further exploration and innovation in microbiome analysis.
 
-- **Unlock the potential of time-series microbiome data**: Traditional cross-sectional approaches often fail to capture the dynamics of the microbiome. This library enables a detailed longitudinal analysis.
-- **Comprehensive toolset**: Perform seasonality analysis, diversity assessments, and predictive modeling in one integrated package.
-- **Designed for real-world research**: The library is a direct result of cutting-edge research on microbiome time-series data, published in *Microbiology Spectrum* ([10.1128/spectrum.04109-23](https://doi.org/10.1128/spectrum.04109-23)).
-- **Future integration**: Future plans include seamless integration with **QIIME 2**, one of the most popular bioinformatics platforms for microbiome analysis.
-
-
+*Importance* : This project developed innovative methods to analyze gut microbiome time series data, offering fresh insights into its dynamic nature. Unlike many studies that focus on static snapshots, we found that the healthy gut microbiome is predictably stable over time, with only a small subset of bacteria showing significant changes. By identifying groups of bacteria with diverse temporal behaviors and clusters that change together, we pave the way for more effective probiotic therapies and dietary interventions, addressing the overlooked dynamic aspects of gut microbiome changes.
 
 ## Features
 
-`dynamo_library` offers a broad range of features for time-series analysis and microbiome research:
 
 ### 🌍 **Community-Level Microbiome Analysis**
 Understand the broader structure of the microbiome with community-wide analysis, including **alpha diversity** calculations, which provide insights into the richness and evenness of microbial species in your samples. 
@@ -42,11 +35,7 @@ Track individual bacterial species over time to uncover their unique behaviors, 
 ### 🔮 **Predictive Modeling with ARIMAX**
 Forecast future changes in the microbiome using **ARIMAX models**, allowing you to predict how microbial communities may evolve under various conditions.
 
-### 🧬 **Longitudinal Data Analysis**
-`dynamo_library` is specifically designed for longitudinal studies, where data is collected from the same subjects over multiple time points. It allows users to track the stability and variability of microbial species within each subject, helping to identify which species are stable and which are more susceptible to environmental changes.
-
 ## Citation
-If you use `dynamo_library` in your research, please cite the following publication:
 
 Microbiome time series data reveal predictable patterns of change
 Z. Karwowska, P. Szczerbiak, T. Kosciolek.
