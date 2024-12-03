@@ -1,4 +1,4 @@
-# 🦠 Microbiome time series data reveal predictable patterns of change 🦠🔬
+# Microbiome time series data reveal predictable patterns of change
 
 
 This repository contains the source code used to generate figures for the manuscript *Microbiome time series data reveal predictable patterns of change*  DOI: 10.1128/spectrum.04109-23. To utilize the methods described in the manuscript for your own research, please clone or download dynamo library from: https://github.com/paula078/dynamo_library 
@@ -33,6 +33,9 @@ Track individual bacterial species over time to uncover their unique behaviors, 
   
 ### 🔮 **Predictive Modeling with ARIMAX**
 Forecast future changes in the microbiome using **ARIMAX models**, allowing you to predict how microbial communities may evolve under various conditions.
+
+### 🔮 **Features clustering**
+Cluster features that fluctuate together in time using compositional correlation and community detection approach.
 
 ## Citation
 
