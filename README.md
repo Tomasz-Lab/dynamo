@@ -41,4 +41,6 @@ Cluster features that fluctuate together in time using compositional correlation
 
 Microbiome time series data reveal predictable patterns of change
 Z. Karwowska, P. Szczerbiak, T. Kosciolek.
-Published in Microbiology Spectrum, 2024. DOI: 10.1128/spectrum.04109-23.
+Published in Microbiology Spectrum, 2024. DOI: 10.1128/spectrum.04109-23. 
+
+https://journals.asm.org/doi/full/10.1128/spectrum.04109-23
