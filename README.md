@@ -1,5 +1,5 @@
 # Microbiome time series data reveal predictable patterns of change
-
+Author: [Zuzanna Karwowska](https://github.com/zuzannakarwowska)
 ## Disclaimer
 
 This repository contains the source code used to generate figures for the manuscript *Microbiome time series data reveal predictable patterns of change*  [DOI: 10.1128/spectrum.04109-23](https://journals.asm.org/doi/full/10.1128/spectrum.04109-23) .
